@@ -11,12 +11,6 @@ handlers:
   static_dir: dist/angularTestApplication
 
   skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - coverage
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE
+  - /e2e
+  - /node_modules
+  
